@@ -1,10 +1,10 @@
 
 ## Introduction
-NeiKG: Knowledge Graph-driven Neighbor Selection and Aggregation for Long-tail Recommendation
+This code is for the paper "NeiKG: Knowledge Graph-driven Neighbor Selection and Aggregation for Long-tail Recommendation" submitted to AAAI2025.
 
 ## Environment Requirement
 ```
-The code has been tested running under Python 3.7.10. The required packages are as follows:
+This code requires deployment on Python 3.7.10, and requires packages as follows:
 
 torch == 1.8.0
 numpy == 1.23.5
@@ -14,16 +14,16 @@ tqdm == 4.65.0
 scikit-learn == 1.2.2
 ```
 
-## NeiKG operation steps
-1. run doCooccur.py to generate co-occurrence neighbors
+## The detail steps of NeiKG:
+1. Carry out the file doCooccur.py to obtain co-occurrence neighbors
 ```
 python doCooccur.py
 ```
-2. run selector.py to generate long-tail neighbors
+2. Carry out the file selector.py to obtain long-tail neighbors
 ```
 python selector.py
 ```
-3. start NeiKG
+3. Carry out the file main_NeiKG.py to obtain the final recommendation
 ```
 python main_NeiKG.py
 ```
