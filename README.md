@@ -14,7 +14,7 @@ tqdm == 4.65.0
 scikit-learn == 1.2.2
 ```
 
-## The detail steps of NeiKG:
+## The detailed steps of NeiKG:
 1. Carry out the file doCooccur.py to obtain co-occurrence neighbors
 ```
 python doCooccur.py
@@ -37,9 +37,7 @@ We provided three datasets to validate NeiKG: Last-FM, MovieLens-1M, and Amazon-
 |    n_users     |  23566  |    6040    | 70679 |
 |    n_items     |  48123  |    3655    |24915|
 | n_interactions | 3034796 |   997579   |847733|
-|   n_entities   | 58266  |   398505   | 88572|
-|  n_relations   |    9    |     57     | 39|
-|   n_triples    | 464567  |   3396595  |2557746|
+
 
 We mapped items of three datasets to Freebase entities to construct KG.
 The following table shows the KG information of three datasets:
