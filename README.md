@@ -44,7 +44,7 @@ The following table shows the KG information of three datasets:
 
 | Knowledge Graph |   Freebase(Last-FM)   |  Freebase(MovieLens-1M)  | Freebase(Amazon-book)
 |:---------------:|          :-----------:         |     :-------:     |:-------:     |
-|   #entities    |              58266            |       398505      |88572|
-|   #relations   |                 9              |         57        |39|
-|    #triples    |              464567            |       3396595     |2557746|
+|   #entities    |              58266            |       64731     |88572|
+|   #relations   |                 9              |        9        |39|
+|    #triples    |              464567            |      41688     |2557746|
 
